@@ -4,10 +4,10 @@ from collections import Counter
 
 # Данные авторизации в API Trello  
 auth_params = {
-    'key': "974164f3205989fd22f9c22df8214be6",
-    'token': "eb0b9b8352044f3697daf8017d96003472794dbdfcf4d1e6e0b13bd9ff1cb938", }
+    'key': "",
+    'token': "", }
 
-board_id = 'vd5duGpx'
+board_id = ''
 
 # Адрес, на котором расположен API Trello, # Именно туда мы будем отправлять HTTP запросы.  
 base_url = "https://api.trello.com/1/{}"
